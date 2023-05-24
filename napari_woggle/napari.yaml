@@ -1,4 +1,4 @@
-name: napari-hello
+name: napari-woggle
 contributions:
   commands:
     - id: napari-woggle.woggle
