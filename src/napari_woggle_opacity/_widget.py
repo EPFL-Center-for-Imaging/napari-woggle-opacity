@@ -68,9 +68,6 @@ class WoggleOpacityWidget(QWidget):
         self.viewer.layers.events.removed.connect(self._on_layer_change)
         self._on_layer_change(None)
 
-        import skimage.data
-        self.viewer.add_image(skimage.data.coins())
-
     def _on_layer_change(self, e):
         self.cb_image.clear()
         for x in self.viewer.layers:
