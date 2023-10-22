@@ -1,9 +1,0 @@
-name: napari-woggle
-contributions:
-  commands:
-    - id: napari-woggle.woggle
-      title: Woggle
-      python_name: napari_woggle._widget:WoggleWidget
-  widgets:
-    - command: napari-woggle.woggle
-      display_name: Woggle

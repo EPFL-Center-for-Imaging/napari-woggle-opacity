@@ -71,6 +71,9 @@ class WoggleWidget(QWidget):
         self.viewer.layers.events.removed.connect(self._on_layer_change)
         self._on_layer_change(None)
 
+        import skimage.data
+        self.viewer.add_image(skimage.data.coins())
+
     def update_woggle_speed(self):
         speed = self.woggle_speed_slider.value()  # Values are in [0-100]
         self.woggle_speed = (100 - speed) / 100 * 0.10 + 0.001
