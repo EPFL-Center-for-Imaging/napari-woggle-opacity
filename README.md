@@ -1,10 +1,15 @@
 # napari-woggle-opacity
 
-Dynamically change the layer opacity in Napari.
+Dynamically *woggle* a layer's opacity in Napari. Select a woggling `speed` and a `transition function` (*Smooth* or *Sharp*).
 
 <p align="center">
     <img src="https://github.com/MalloryWittwer/napari-woggle-opacity/blob/main/assets/woggle.gif" height="400">
 </p>
+
+**Why use `napari-woggle-opacity`?**
+For example:
+- To visually inspect the results of an **image registration** operation
+- To inspect **multi-modality** or **multi-channel** images
 
 ## Installation
 
