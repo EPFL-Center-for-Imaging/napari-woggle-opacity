@@ -2,9 +2,9 @@
 
 Dynamically change the layer opacity in Napari.
 
-<!-- <p align="center">
-    <img src="https://github.com/MalloryWittwer/napari-z-plotter/blob/main/assets/napari_z_plotter-1.gif" height="400">
-</p> -->
+<p align="center">
+    <img src="https://github.com/MalloryWittwer/napari-woggle-opacity/blob/main/assets/woggle.gif" height="400">
+</p>
 
 ## Installation
 
