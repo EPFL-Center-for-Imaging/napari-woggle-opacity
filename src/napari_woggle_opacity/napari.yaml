@@ -1,0 +1,10 @@
+name: napari-woggle-opacity
+display_name: Napari Woggle Opacity
+contributions:
+  commands:
+    - id: napari-woggle-opacity.woggle
+      title: Woggle opacity
+      python_name: napari_woggle_opacity:WoggleOpacityWidget
+  widgets:
+    - command: napari-woggle-opacity.woggle
+      display_name: Woggle opacity

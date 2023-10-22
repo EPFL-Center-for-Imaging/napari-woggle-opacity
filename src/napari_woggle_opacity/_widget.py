@@ -11,7 +11,7 @@ from qtpy.QtWidgets import (
     QSizePolicy,
 )   
 
-class WoggleWidget(QWidget):
+class WoggleOpacityWidget(QWidget):
     def __init__(self, napari_viewer):
         super().__init__()
 

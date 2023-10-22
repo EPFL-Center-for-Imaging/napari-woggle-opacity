@@ -1,4 +1,4 @@
-# napari-woggle
+# napari-woggle-opacity
 
 Dynamically change the layer opacity in Napari.
 
@@ -8,9 +8,9 @@ Dynamically change the layer opacity in Napari.
 
 ## Installation
 
-You can install `napari-woggle` via [pip]:
+You can install `napari-woggle-opacity` via [pip]:
 
-    pip install napari-woggle
+    pip install napari-woggle-opacity
 
 ## Usage
 
@@ -23,7 +23,7 @@ Contributions are very welcome. Please get in touch if you'd like to be involved
 ## License
 
 Distributed under the terms of the [BSD-3] license,
-"napari-woggle" is free and open source software
+"napari-woggle-opacity" is free and open source software
 
 ## Issues
 
